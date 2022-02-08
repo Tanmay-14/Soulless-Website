@@ -206,7 +206,7 @@ nav a:hover{
 @keyframes fadeInLili{
     0%{
         opacity: 0;
-        transform: translateX(400px) ;
+        transform: translateX(400px);
     }
     100%{
         opacity: 1;
@@ -218,10 +218,10 @@ nav a:hover{
 @keyframes fadeLogo{
     0%{
         opacity: 0;
-        transform: rotateY(45deg);
     }
     100%{
         opacity: 1;
+
     }
 }
 
@@ -266,17 +266,27 @@ nav a:hover{
     }
 
     /* banner */
+    
+    .banner{
+        height: 400px;
+    }
     .banner .bgimg{
         height: 400px;
     }
     .banner .char{
         height: 400px;
     }
-    
     .banner .char img{
-        width: 100%;
-        height: 400px;
+        height: auto;
+        width: 715px;
     }
+    .banner .char .bnLogo{
+        width: 250px;
+        height: auto;
+        transform: translate(-50%, -70%);
+    }
+    
+
 }
 
 @media screen and (max-width:768px){
@@ -314,6 +324,17 @@ nav a:hover{
         margin-left: 50px;
         padding-bottom: 7px;
     }
+    .banner .char .bnLogo{
+        width: 200px;
+        height: auto;
+    }
+    .banner .char .bgLili{
+        right: 5%;
+    }
+    .banner .char .bgEthan{
+        left: 5%;
+    }
+
 }
 .nav-active{
     z-index: 100;

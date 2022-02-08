@@ -147,8 +147,9 @@ nav img{
 
 .banner .char .bnLogo{
     left: 50%;
-    top: 60%;
-    transform: translate(-50%,-30%);
+    top: 50%;
+    z-index: 10;
+    transform: translate(-50%,-50%);
     -webkit-animation: fadeLogo 1.3s both;
     animation: fadeLogo 1.3s both;
     animation-delay: 2.1s;
@@ -205,7 +206,7 @@ nav a:hover{
 @keyframes fadeInLili{
     0%{
         opacity: 0;
-        transform: translateX(400px);
+        transform: translateX(400px) ;
     }
     100%{
         opacity: 1;
@@ -217,6 +218,7 @@ nav a:hover{
 @keyframes fadeLogo{
     0%{
         opacity: 0;
+        transform: rotateY(45deg);
     }
     100%{
         opacity: 1;

@@ -90,6 +90,71 @@ nav img{
     transition: 0.3s all ease;
 }
 
+.container{
+    width: 100%;
+    overflow: hidden;
+}
+
+/* Banner */
+
+.banner .bgimg{
+    position: absolute;
+    height: 600px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+.banner .char{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    padding: 0 5%;
+}
+
+.banner .char img{
+    position: absolute;
+}
+
+.banner .char .bgLili{
+    z-index: 2;
+    right: 15%;
+    bottom: 0;
+    -webkit-animation: fadeInLili 1.7s both;
+    animation: fadeInLili 1.7s both;
+    animation-delay: 0.5s;
+}
+
+.banner .char .bgLuci{
+    right: 0%;
+    bottom: 0;
+    -webkit-animation: fadeInLuci 1.3s both;
+    animation: fadeInLuci 1.3s both;
+}
+
+.banner .char .bgEdith{
+    left: 0;
+    bottom: 0;
+    -webkit-animation: fadeInEdith 1.3s both;
+    animation: fadeInEdith 1.3s both;
+}
+
+.banner .char .bgEthan{
+    left: 15%;
+    -webkit-animation: fadeInEthan 1.7s both;
+    animation: fadeInEthan 1.7s both;
+    animation-delay: 0.5s;
+}
+
+.banner .char .bnLogo{
+    height: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-30%);
+    -webkit-animation: fadeLogo 1.3s both;
+    animation: fadeLogo 1.3s both;
+    animation-delay: 2.1s;
+}
+
 
 
 
@@ -104,6 +169,61 @@ nav a:hover{
     font-size: 19px;
     text-decoration: underline;
 }
+
+/* Characters Animation */
+@keyframes fadeInEdith{
+    0%{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+@keyframes fadeInLuci{
+    0%{
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+@keyframes fadeInEthan{
+    0%{
+        opacity: 0;
+        transform: translateX(-400px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+@keyframes fadeInLili{
+    0%{
+        opacity: 0;
+        transform: translateX(400px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+/* Logo Animation */
+@keyframes fadeLogo{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
 
 
 

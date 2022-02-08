@@ -146,9 +146,8 @@ nav img{
 }
 
 .banner .char .bnLogo{
-    height: 100%;
     left: 50%;
-    top: 50%;
+    top: 60%;
     transform: translate(-50%,-30%);
     -webkit-animation: fadeLogo 1.3s both;
     animation: fadeLogo 1.3s both;

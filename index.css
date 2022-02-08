@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Glory:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Glory:wght@200;400;500;600;700;800&display=swap');
 
 *{
     margin: 0;
@@ -155,7 +157,76 @@ nav img{
     animation-delay: 2.1s;
 }
 
+/* QUOTE */
+.quote{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2% 0;
+}
 
+.container .quote p{
+    font-family: 'Allura', cursive;
+    font-size: 35px;
+    text-align: center;
+}
+
+
+/* Character */
+.characters{
+    margin: 20% 0;
+}
+
+.characters .Luci{
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+.characters .Luci img{
+    position: relative;
+}
+
+.characters .Luci .lucibx{
+    -webkit-animation: fadeLuci 1.3s both;
+    animation: fadeLuci 1.3s both;
+}
+
+.Luci .charLuci{
+    padding: 0 5% ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    position: absolute;
+    bottom: 0px;
+}
+
+.desc{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+}
+
+.desc h1{
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 55px;
+    text-align: right;
+    padding-bottom: 100px;
+    color: #9A1F2B;
+    animation: fadeLuciTxt 1.3s both;
+    animation-delay: .5s;
+}
+
+.desc p{
+    font-family: 'Glory', sans-serif;
+    font-size: 25px;
+    text-align: left;
+    color: #fff;
+    line-height: 2.5rem;
+}
 
 
 
@@ -216,6 +287,28 @@ nav a:hover{
 
 /* Logo Animation */
 @keyframes fadeLogo{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+
+    }
+}
+
+/* fade Lluci */
+@keyframes fadeLuci{
+    0%{
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@keyframes fadeLuciTxt{
     0%{
         opacity: 0;
     }

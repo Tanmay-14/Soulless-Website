@@ -182,7 +182,7 @@ nav img{
 
 .characters .Luci{
     width: 100%;
-    height: 500px;
+    /* height: 500px; */
     position: relative;
 }
 
@@ -213,8 +213,10 @@ nav img{
 
 .desc h1{
     font-family: 'Cinzel Decorative', cursive;
-    font-size: 55px;
+    font-size: 65px;
+    font-weight: 400;
     text-align: right;
+    margin-top: -40px;
     padding-bottom: 100px;
     color: #9A1F2B;
     animation: fadeLuciTxt 1.3s both;

@@ -46,6 +46,7 @@ header{
 nav{
     display:flex;
     align-items: center;
+   
     /* width: 50%; */
     height: 10vh;
     justify-content: space-around;
@@ -53,8 +54,8 @@ nav{
 
 .nav-links{
     display: flex;
-    justify-content: space-around;
-    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
     width: 50%;
 }
 
@@ -97,7 +98,7 @@ nav img{
     overflow: hidden;
 }
 
-/* Banner */
+/* Banner*/
 
 .banner .bgimg{
     position: absolute;
@@ -155,6 +156,7 @@ nav img{
     -webkit-animation: fadeLogo 1.3s both;
     animation: fadeLogo 1.3s both;
     animation-delay: 2.1s;
+    width: 500px;
 }
 
 /* QUOTE */
@@ -172,7 +174,6 @@ nav img{
     font-size: 35px;
     text-align: center;
 }
-
 
 /* Character */
 .characters{
@@ -227,12 +228,6 @@ nav img{
     color: #fff;
     line-height: 2.5rem;
 }
-
-
-
-
-
-
 
 /* animations */
 nav a:hover{
@@ -317,19 +312,6 @@ nav a:hover{
 
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* media-queries */

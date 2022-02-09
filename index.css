@@ -283,6 +283,113 @@ nav img{
     line-height: 2.5rem;
 }
 
+/* Ethan Group */
+.characters .Ethan{
+    margin-top: 400px;
+    width: 100%;
+    position: relative;
+}
+
+.characters .Ethan img{
+    position: relative;
+}
+
+.characters .Ethan .Ethanbx{
+    -webkit-animation: fadeLuci 1.3s both;
+    animation: fadeLuci 1.3s both;
+}
+
+.Ethan .charEthan{
+    padding: 0 5% ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    position: absolute;
+    bottom: 0px;
+}
+
+.desc3{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+}
+
+.desc3 h1{
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 65px;
+    font-weight: 400;
+    text-align: right;
+    margin-top: 40px;
+    padding-bottom: 130px;
+    color: #9b3100;
+    animation: fadeLuciTxt 1.3s both;
+    animation-delay: .5s;
+}
+
+.desc3 p{
+    font-family: 'Glory', sans-serif;
+    font-size: 25px;
+    text-align: left;
+    margin-left: 40px;
+    color: #fff;
+    line-height: 2.5rem;
+}
+
+
+
+/* Lilian Group */
+.characters .Lilian{
+    margin-top: 400px;
+    width: 100%;
+    position: relative;
+}
+
+.characters .Lilian img{
+    position: relative;
+}
+
+.characters .Lilian .Lilianbx{
+    -webkit-animation: fadeLuci 1.3s both;
+    animation: fadeLuci 1.3s both;
+}
+
+.Lilian .charLilian{
+    padding: 0 5% ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    position: absolute;
+    bottom: 0px;
+}
+
+.desc4{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+}
+
+.desc4 h1{
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 65px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 40px;
+    padding-bottom: 130px;
+    color: #ff0077;
+    animation: fadeLuciTxt 1.3s both;
+    animation-delay: .5s;
+}
+
+.desc4 p{
+    font-family: 'Glory', sans-serif;
+    font-size: 25px;
+    text-align: left;
+    color: #fff;
+    line-height: 2.5rem;
+}
+
 /* animations */
 nav a:hover{
     color: #F3B943;

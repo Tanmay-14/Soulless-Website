@@ -213,7 +213,7 @@ nav img{
 }
 
 .desc h1{
-    font-family: 'Cinzel Decorative';
+    font-family: 'Cinzel Decorative', cursive;
     font-size: 65px;
     font-weight: 400;
     text-align: right;
@@ -271,7 +271,7 @@ nav img{
     text-align: left;
     margin-top: 40px;
     padding-bottom: 130px;
-    color: #63262c;
+    color: #452125;
     animation: fadeLuciTxt 1.3s both;
     animation-delay: .5s;
 }
@@ -323,7 +323,7 @@ nav img{
     text-align: right;
     margin-top: 40px;
     padding-bottom: 130px;
-    color: #9b3100;
+    color: #A76B4C;
     animation: fadeLuciTxt 1.3s both;
     animation-delay: .5s;
 }
@@ -378,7 +378,7 @@ nav img{
     text-align: left;
     margin-top: 40px;
     padding-bottom: 130px;
-    color: #ff0077;
+    color: #F34972;
     animation: fadeLuciTxt 1.3s both;
     animation-delay: .5s;
 }

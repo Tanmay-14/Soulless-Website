@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Glory:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Glory:wght@200;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
 
 *{
     margin: 0;
@@ -285,8 +286,22 @@ nav img{
     bottom: 0px;
 }
 
-.edithTxt{
-    padding: 0% 10% 0% 3%;
+.desc2{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+}
+
+.desc2 h1{
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 65px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 40px;
+    padding-bottom: 130px;
+    color: #452125;
+    animation: fadeLuciTxt 1.3s both;
+    animation-delay: .5s;
 }
 
 .edithTxt h1{
@@ -319,6 +334,33 @@ nav img{
     bottom: 0px;
 }
 
+.desc3{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+}
+
+.desc3 h1{
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 65px;
+    font-weight: 400;
+    text-align: right;
+    margin-top: 40px;
+    padding-bottom: 130px;
+    color: #A76B4C;
+    animation: fadeLuciTxt 1.3s both;
+    animation-delay: .5s;
+}
+
+.desc3 p{
+    font-family: 'Glory', sans-serif;
+    font-size: 25px;
+    text-align: left;
+    margin-left: 40px;
+    color: #fff;
+    line-height: 2.5rem;
+}
+
 
 
 /* Lilian Group */
@@ -348,6 +390,25 @@ nav img{
 }
 
 
+.desc4 h1{
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 65px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 40px;
+    padding-bottom: 130px;
+    color: #F34972;
+    animation: fadeLuciTxt 1.3s both;
+    animation-delay: .5s;
+}
+
+.desc4 p{
+    font-family: 'Glory', sans-serif;
+    font-size: 25px;
+    text-align: left;
+    color: #fff;
+    line-height: 2.5rem;
+}
 
 /* animations */
 nav a:hover{

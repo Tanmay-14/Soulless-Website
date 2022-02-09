@@ -167,7 +167,8 @@ nav img{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 2% 0;
+    padding: 10% 0;
+    color: #5D3729;
 }
 
 .container .quote p{
@@ -175,6 +176,42 @@ nav img{
     font-size: 35px;
     text-align: center;
 }
+
+/* About Story */
+.AboutStory{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* height: 600px; */
+    width: 100%;
+    position: relative;
+    background: url(./Resources/About\ BG.png) no-repeat;
+    margin-bottom: 400px;
+    padding: 10% 0;
+}
+
+.Abouttxt h1{
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 65px;
+    font-weight: 600;
+    color: #F3B943;
+    text-align: center;
+}
+
+.Abouttxt p{
+    font-family: 'Glory', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: #fff;
+    line-height: 2.5rem;
+    padding: 2%;
+}
+
+.AboutStory img{
+    height: 60px;
+}
+
 
 /* Character */
 /* Lucien Group */

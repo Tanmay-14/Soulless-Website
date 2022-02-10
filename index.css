@@ -463,17 +463,16 @@ nav img{
     justify-content: space-around;
     align-items: center;
     align-self: center;
-    cursor: pointer;
 }
 
 .btn1 img{
-margin-left: -180px
-    ;
+    cursor: pointer;
+    margin-left: -180px
 }
 
 .btn2 img{
+    cursor: pointer;
     margin-right: -180px
-    ;
 }
 
 

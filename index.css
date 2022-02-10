@@ -437,18 +437,17 @@ nav img{
 
 .downloadbox .DLSoulless{
     position: absolute;
-    align-items: center;
-    justify-content: center;
-    z-index: 10;
     transform: translate(-50%,-50%);
     left: 50%;
     margin-top: 60px;
+    -webkit-animation: fadeLogo 1.3s both;
+    animation: fadeLogo 1.3s both;
+    animation-delay: 1s;
 }
 
 .itcholine{
     position: absolute;
     cursor: pointer;
-    justify-content: center;
     transform: translate(-50%,-50%);
     left: 50%;
     margin-top: 350px;

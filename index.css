@@ -216,57 +216,55 @@ nav img{
 /* Character */
 /* Lucien Group */
 .characters{
-    margin: 7% 0;
+    margin: 10% 0;
 }
 
-.characters .Lucien{
+.char{
+    margin: 20% 0;
     width: 100%;
+    height: 400px;
     position: relative;
-    background: url(./Resources/Group\ 1.png);
+    background: url(./Resources/Group\ 1.png) no-repeat;
     object-fit: cover;
-    margin: 15% 0;
 }
 
-.characters .Lucien img{
-    position: relative;
-}
-
-.characters .Lucien .Lucienbx{
-    -webkit-animation: fadeLuci 1.3s both;
-    animation: fadeLuci 1.3s both;
-}
-
-.Lucien .charLucien{
-    padding: 0 5% ;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: row;
+.charCont{
     position: absolute;
     bottom: 0px;
-}
-
-
-
-.desc{
     display: flex;
-    flex-direction: column;
-    height: 500px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 7%;
 }
 
-.desc h1{
+/* .charCont .charImg{
+    margin-right: 15%;
+} */
+
+.charCont .charImg img{
+   margin-bottom: -1%;
+    width: 135%;
+}
+
+.charCont .charTxt{
+    display: flex;
+    height: 500px;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.charTxt h1{
     font-family: 'Cinzel Decorative', cursive;
     font-size: 65px;
     font-weight: 400;
     text-align: right;
-    margin-top: 40px;
-    padding-bottom: 130px;
+    margin-bottom:125px;
     color: #9A1F2B;
     animation: fadeLuciTxt 1.3s both;
     animation-delay: .5s;
 }
 
-.desc p{
+.charTxt p{
     font-family: 'Glory', sans-serif;
     font-size: 25px;
     text-align: left;
@@ -274,178 +272,46 @@ nav img{
     line-height: 2.5rem;
 }
 
-.luciTxt{
-    padding: 0% 3% 0% 10%;
-}
-
-
-/* Edith Group */
-.characters .edith{
-    width: 100%;
-    height: 500px;
-    position: relative;
-    background: url(./Resources/Group\ 2.png);
+.edith{
+    background: url(./Resources/Group\ 2.png) no-repeat;
     object-fit: cover;
 }
 
-.edith .charEdith{
-    padding: 0 5% ;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+.edithCont{
     flex-direction: row-reverse;
-    position: absolute;
-    bottom: 0px;
 }
 
-.characters .Edith{
-    margin-top: 400px;
-    width: 100%;
-    position: relative;
+.ethanTxt, .luciTxt{
+    margin-left: 7%;
 }
 
-.characters .Edith img{
-    position: relative;
-}
-
-.characters .Edith .Edithbx{
-    -webkit-animation: fadeLuci 1.3s both;
-    animation: fadeLuci 1.3s both;
-}
-
-.Edith .charEdith{
-    padding: 0 5% ;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: row;
-    position: absolute;
-    bottom: 0px;
-}
-
-.desc2{
-    display: flex;
-    flex-direction: column;
-    height: 500px;
-}
-
-.desc2 h1{
-    font-family: 'Cinzel Decorative', cursive;
-    font-size: 65px;
-    font-weight: 400;
-    text-align: left;
-    margin-top: 40px;
-    padding-bottom: 130px;
-    color: #452125;
-    animation: fadeLuciTxt 1.3s both;
-    animation-delay: .5s;
+.edithTxt, .lilianTxt{
+    margin: 0 5%;
 }
 
 .edithTxt h1{
     text-align: left;
 }
 
-/* Ethan Group */
-.characters .Ethan{
-    margin-top: 400px;
-    width: 100%;
-    position: relative;
+.ethan{
+    background: url(./Resources/Group\ 3.png) no-repeat;
+    object-fit: cover;
 }
 
-.characters .Ethan img{
-    position: relative;
+.lilian{
+    background: url(./Resources/Group\ 4.png) no-repeat;
+    object-fit: cover;
 }
 
-.characters .Ethan .Ethanbx{
-    -webkit-animation: fadeLuci 1.3s both;
-    animation: fadeLuci 1.3s both;
+.lilianCont{
+    flex-direction: row-reverse;
 }
 
-.Ethan .charEthan{
-    padding: 0 5% ;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: row;
-    position: absolute;
-    bottom: 0px;
-}
-
-.desc3{
-    display: flex;
-    flex-direction: column;
-    height: 500px;
-}
-
-.desc3 h1{
-    font-family: 'Cinzel Decorative', cursive;
-    font-size: 65px;
-    font-weight: 400;
-    text-align: right;
-    margin-top: 40px;
-    padding-bottom: 130px;
-    color: #A76B4C;
-    animation: fadeLuciTxt 1.3s both;
-    animation-delay: .5s;
-}
-
-.desc3 p{
-    font-family: 'Glory', sans-serif;
-    font-size: 25px;
+.lilianTxt h1{
     text-align: left;
-    margin-left: 40px;
-    color: #fff;
-    line-height: 2.5rem;
 }
 
 
-
-/* Lilian Group */
-.characters .Lilian{
-    margin-top: 400px;
-    width: 100%;
-    position: relative;
-}
-
-.characters .Lilian img{
-    position: relative;
-}
-
-.characters .Lilian .Lilianbx{
-    -webkit-animation: fadeLuci 1.3s both;
-    animation: fadeLuci 1.3s both;
-}
-
-.Lilian .charLilian{
-    padding: 0 5% ;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: row;
-    position: absolute;
-    bottom: 0px;
-}
-
-
-.desc4 h1{
-    font-family: 'Cinzel Decorative', cursive;
-    font-size: 65px;
-    font-weight: 400;
-    text-align: left;
-    margin-top: 40px;
-    padding-bottom: 130px;
-    color: #F34972;
-    animation: fadeLuciTxt 1.3s both;
-    animation-delay: .5s;
-}
-
-.desc4 p{
-    font-family: 'Glory', sans-serif;
-    font-size: 25px;
-    text-align: left;
-    color: #fff;
-    line-height: 2.5rem;
-}
 
 /* DOWNLOAD button */
 .downloadbox{

@@ -1,3 +1,5 @@
+//Parallax
+
 //Mobile version sidebar
 const navSlide = () => {
     const burger = document.querySelector('.burger');

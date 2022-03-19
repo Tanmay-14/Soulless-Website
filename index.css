@@ -310,15 +310,16 @@ nav img{
 /* DOWNLOAD button */
 .downloadbox{
     display: flex;
-    margin-top: 200px;
+    margin: 10% 0;
     width: 100%;
+    position: relative;
 }
 
 .downloadbox .DLSoulless{
     position: absolute;
     transform: translate(-50%,-50%);
     left: 50%;
-    margin-top: 60px;
+    top: 20px;
     -webkit-animation: fadeLogo 1.3s both;
     animation: fadeLogo 1.3s both;
     animation-delay: 1s;
@@ -327,9 +328,9 @@ nav img{
 .itcholine{
     position: absolute;
     cursor: pointer;
-    transform: translate(-50%,-50%);
     left: 50%;
-    margin-top: 350px;
+    bottom: 50%;
+    transform: translate(-50%,150%);
     width: 320px;
 }
 
@@ -378,41 +379,45 @@ nav img{
     align-items: center;
 }
 
-.Flairvee .content{
+.Flairvee .centerImg .content{
+    width: 63%;
     position: absolute;
+    top: 50%;
+    bottom: 50%;
+    transform: translate(0%, 0%);
     color: #fff;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 50%;
+    
 }
 
-.Flairvee .content .right{
+.Flairvee .centerImg .content .right{
+    height: 480px;
     padding:  0 7% ;
     
 
 }
 
-.Flairvee .content .left img{
-    margin-bottom: 75%;
+.Flairvee .centerImg .content .left img{
+    margin-bottom: 55%;
 }
 
-.Flairvee .content .right h1{
+.Flairvee .centerImg .content .right h1{
     font-family: 'Cinzel Decorative', cursive;
-    font-size: 65px;
+    font-size: 45px;
     font-weight: 400;
     text-align: right;
     color: #F3B943;
 }
 
-.Flairvee .content .right p{
+.Flairvee .centerImg .content .right p{
     font-family: 'Glory', sans-serif;
-    font-size: 25px;
+    font-size: 18px;
     text-align: center;
     color: #fff;
-    line-height: 2.5rem;
-    padding-top: 20% ;
-    margin-bottom: 37%;
+    line-height: 1.5rem;
+    padding-top: 12% ;
 }
 
 
@@ -502,6 +507,21 @@ nav a:hover{
 
 
 /* media-queries */
+@media screen and (max-width:1440px){
+    .Flairvee .content .right p{
+        font-size: 16px;
+        line-height: 1.5rem;
+    }
+
+    .Flairvee .flaircont .centerImg img{
+        height: 350px;
+    }
+
+    .Flairvee .content{
+        padding: 0 10%;
+    }
+
+}
 @media screen and (max-width:1024px){
     .logo .logo-img img{
         width: 45px;
@@ -530,7 +550,7 @@ nav a:hover{
     /* banner */
     
     .banner{
-        height: 400px;
+        width: 100%;
     }
     .banner .bgimg{
         height: 400px;
@@ -540,15 +560,59 @@ nav a:hover{
     }
     .banner .char img{
         height: auto;
-        width: 715px;
+        width: 356px;
     }
     .banner .char .bnLogo{
         width: 250px;
         height: auto;
         transform: translate(-50%, -70%);
     }
-    
+    .container .quote p{
+        font-size: 28px;
+    }
+    .container .quote img{
+        width: 400px;
+    }
+    .Abouttxt h1{
+        font-size: 50px;
+    }
+    .Abouttxt p{
+        font-size: 20px;
+        line-height: 2rem;
+    }
+    .AboutStory img{
+        height: 50px;
+    }
+    .charc{
+        height: 300px;
+    }
+    .charcCont .charcTxt{
+        height: 350px;
+    }
+    .charcTxt h1{
+        font-size: 65px;
+    }
+    .charcTxt p{
+        font-size: 20px;
+        line-height: 1.8rem;
+    }
+    .DLSoulless img{
+        width: 300px;
+    }
+    .bgimg .btn{
+        padding: 0 10%;
+    }
 
+    .bgimg .btn .btn1 img,
+    .bgimg .btn .btn2 img{
+        height: 80px;
+    }
+    .itcholine{
+        width: 220px;
+        left: 50%;
+        bottom: 50%;
+        transform: translate(-50%,200%);
+    }
 }
 
 @media screen and (max-width:768px){
